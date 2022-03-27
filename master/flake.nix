@@ -11,6 +11,7 @@
   inputs.src-nwatchdog-master.ref   = "refs/heads/master";
   inputs.src-nwatchdog-master.owner = "zendbit";
   inputs.src-nwatchdog-master.repo  = "nim.nwatchdog";
+  inputs.src-nwatchdog-master.dir   = "";
   inputs.src-nwatchdog-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
